@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Coral Preset Creator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet"> <!-- Oswald font -->
+</head>
+<body>
+    <div id="PresetApp">
+        <h2>OXI Coral Preset Creator</h2>
+        <div id="settingsContainer"></div>
+        <div id="PresetSelectContainer">
+            <label for="PresetSelect">Choose a Preset: </label>
+            <select id="PresetSelect">
+                <!-- Dynamically generate options in JavaScript -->
+            </select>
+            <button id="downloadPreset" onclick="serializeAndDownload()">Download Preset</button>
+        </div>
+    </div>
+        
+    <script src="coral_configurator.js"></script>
+</body>
+</html>
