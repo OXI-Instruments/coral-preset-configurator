@@ -1,0 +1,88 @@
+@media (max-width: 600px) {
+    #PresetApp {
+        width: 80%; Makes the container wider on smaller screens
+    }
+}
+
+html, body {
+    height: 100%; /* Ensure the body takes up full viewport height */
+    margin: 0; /* Remove default margin */
+    /* display: flex; Enables flexbox properties for the body */
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    font-family: 'Oswald', sans-serif; /* Oswald font applied globally */
+}
+
+
+#PresetApp {
+    width: 60%; /* Adjusts the width of the container to 40% */
+    margin: 20px auto; /* Centers the container with automatic margins on both sides */
+    font-family: 'Oswald', sans-serif; /* Sets Oswald as the font for the container */
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
+}
+
+label {
+    /* display: block; *//* Makes each label start on a new line */
+    /* margin: 5px 0;  Adds some vertical space around each label */
+}
+
+select, button {
+    background-color: #C348B7;
+    border: 2px #C348B7;
+    border-radius: 10px;
+  max-width: 50%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #C348B7;
+  color: white;
+    margin-bottom: 1px; /* Adds some space below each select element */
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+select {
+    width: 8em; /* Makes select elements take up the full width of the container */
+    border: 2px #C348B7;
+}
+
+h2 {
+    text-align: center; /* Centers text horizontally */
+    margin-top: 20px; /* Adds some space above the heading */
+}
+
+.voice-control {
+    background-color: #eee;
+    border-radius: 10px;
+    padding: 10px;
+    /* display: flex; Enables flexbox layout */
+    /* justify-content: space-between; Distributes space between children */
+    margin-bottom: 10px; /* Adds space below each group of controls */
+
+
+        align-items: center;
+    justify-content: center;
+    color: #232323;
+    background-color: #f6f6f6;
+    padding: 10px;
+
+    border-radius: 15px;
+
+    margin: 5px;
+}
+
+.voice-control label, 
+.voice-control select {
+    margin-right: 2%; /* Adds space to the right of each label and select element */
+}
+
+#downloadPreset {
+    border-style: solid;
+    border: #000 ;
+}
+
+#PresetSelectContainer {
+    margin: 20px;
+}
